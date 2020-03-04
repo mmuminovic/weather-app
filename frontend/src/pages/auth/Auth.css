@@ -1,0 +1,37 @@
+.LoginPage {
+    position: relative;
+    background-color: rgb(168, 191, 241);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.LoginForm {
+	margin: auto;
+    position: absolute;
+	top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.LoginForm input {
+    display: block;
+    width: 350px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+.LoginForm button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+.ErrorMessage {
+    color: red;
+    font-weight: bold;
+    font-size: 13px;
+}

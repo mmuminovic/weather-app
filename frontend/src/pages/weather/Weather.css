@@ -1,0 +1,46 @@
+.WeatherPage {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  background-color: rgb(168, 191, 241);
+}
+
+.SearchForm {
+  margin: auto;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.SearchForm input {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.SearchForm button {
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.CurrentWeather {
+  margin: auto;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  outline: solid #777;
+  outline-offset: 2rem;
+}
+
+.CurrentWeather p {
+  margin: 3px;
+}
